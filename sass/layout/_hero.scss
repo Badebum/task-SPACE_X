@@ -1,0 +1,143 @@
+.section-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+
+  .left-div {
+    text-align: left;
+    & .titel {
+      font-family: 'Rubik One', sans-serif;
+      font-size: 50px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #fff, rgb(255, 64, 5));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: table;
+      margin: 0;
+    }
+
+    & p {
+      margin: 0;
+      margin-bottom: 87px;
+      font-size: 20px;
+      background: linear-gradient(90deg, #fff, rgb(247, 117, 77));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: table;
+    }
+  }
+
+  .right-div {
+    width: 400px;
+    margin-top: 40px;
+
+    & .items-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -5px;
+      justify-content: flex-end;
+    }
+
+    & .item {
+      width: 185px;
+      height: 185px;
+      position: relative;
+      cursor: pointer;
+
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      & .text-item {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 15px;
+        margin: 0;
+      }
+      & .big-text {
+        font-size: 50px;
+        margin: 20px 0 0 0;
+      }
+    }
+
+    .bg-color1 {
+      transition: 1s;
+      background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left top,
+        from($bg-color),
+        to($none-color)
+      );
+
+      &:hover {
+        background-image: -webkit-gradient(
+          linear,
+          right bottom,
+          left top,
+          from($bg-color-hover),
+          to($none-color)
+        );
+      }
+    }
+
+    .bg-color2 {
+      background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        from($bg-color),
+        to($none-color)
+      );
+
+      &:hover {
+        background-image: -webkit-gradient(
+          linear,
+          left bottom,
+          right top,
+          from($bg-color-hover),
+          to($none-color)
+        );
+      }
+    }
+
+    .bg-color3 {
+      background-image: -webkit-gradient(
+        linear,
+        right top,
+        left bottom,
+        from($bg-color),
+        to($none-color)
+      );
+      &:hover {
+        background-image: -webkit-gradient(
+          linear,
+          right top,
+          left bottom,
+          from($bg-color-hover),
+          to($none-color)
+        );
+      }
+    }
+
+    .bg-color4 {
+      background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        from($bg-color),
+        to($none-color)
+      );
+      &:hover {
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          right bottom,
+          from($bg-color-hover),
+          to($none-color)
+        );
+      }
+    }
+  }
+}
