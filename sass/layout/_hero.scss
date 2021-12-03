@@ -12,7 +12,8 @@
     }
 
     & .titel {
-      font-family: 'Rubik One', sans-serif;
+      font-family: 'MuseoSansCyrl', 'AdobeInvisFont', 'MyriadPro-Regular',
+        'Arial Narrow', Arial, sans-serif;
       font-weight: 700;
       font-size: 55px;
       text-transform: uppercase;
@@ -24,9 +25,12 @@
     }
 
     & p {
+      font-family: 'MuseoSansCyrl', 'AdobeInvisFont', 'MyriadPro-Regular',
+        'Arial Narrow', Arial, sans-serif;
+      font-weight: 300;
+
       margin: 0;
       font-size: 20px;
-      font-weight: 300;
       background: linear-gradient(90deg, #fff, rgb(247, 117, 77));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -85,6 +89,9 @@
       }
 
       & .text-item {
+        font-family: 'MuseoSansCyrl', 'AdobeInvisFont', 'MyriadPro-Regular',
+          'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
         font-size: 18px;
         margin: 0;
 
@@ -103,6 +110,9 @@
       }
 
       & .big-text {
+        font-family: 'MuseoSansCyrl', 'AdobeInvisFont', 'MyriadPro-Regular',
+          'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
         font-size: 50px;
         color: inherit;
         margin: 20px 0 0 0;
