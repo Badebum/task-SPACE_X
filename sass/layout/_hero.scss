@@ -91,13 +91,13 @@
         color: rgba(255, 255, 255, 0.6);
 
         @media screen and (min-width: 320px) and (max-width: 767px) {
-          color: rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 0.6);
           font-size: 12px;
           text-shadow: 1px 1px 5px black;
         }
 
         @media screen and (min-width: 767px) and (max-width: 1169px) {
-          color: rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 0.6);
           text-shadow: 1px 1px 5px black;
         }
       }
