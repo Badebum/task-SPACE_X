@@ -19,7 +19,7 @@
     justify-content: center;
   }
 
-  @media screen and (min-width: 1170px) and (max-width: 1600px) {
+  @media screen and (min-width: 1170px) {
     width: 317px;
     border-bottom: none;
     padding: 25px 18px 35px 26px;
@@ -35,8 +35,8 @@
       justify-content: center;
     }
 
-    @media screen and (min-width: 1170px) and (max-width: 1600px) {
-      width: 300px;
+    @media screen and (min-width: 1170px) {
+      width: 290px;
     }
   }
 }
@@ -55,24 +55,24 @@
 .logo::before {
   top: -1px;
   left: -1px;
-  border-top: 1px solid white;
-  border-left: 1px solid white;
+  border-top: $border-color;
+  border-left: $border-color;
 }
 .logo::after {
   top: -1px;
   right: -1px;
-  border-top: 1px solid white;
-  border-right: 1px solid white;
+  border-top: $border-color;
+  border-right: $border-color;
 }
 .corners::before {
   bottom: -1px;
   left: -1px;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: $border-color;
+  border-left: $border-color;
 }
 .corners::after {
   bottom: -1px;
   right: -1px;
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
+  border-bottom: $border-color;
+  border-right: $border-color;
 }

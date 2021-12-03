@@ -7,15 +7,7 @@
   }
 
   .left-div {
-    // @media screen and (min-width: 320px) and (max-width: 767px) {
-    //   height: 450px;
-    // }
-
-    // @media screen and (min-width: 767px) and (max-width: 1169px) {
-    //   margin-top: 15px;
-    // }
-
-    @media screen and (min-width: 1170px) and (max-width: 1600px) {
+    @media screen and (min-width: 1170px) {
       text-align: left;
     }
 
@@ -50,15 +42,11 @@
       display: flex;
       margin: -5px;
 
-      // @media screen and (min-width: 320px) and (max-width: 767px) {
-      //   justify-content: space-around;
-      // }
-
       @media screen and (min-width: 768px) and (max-width: 1169px) {
         justify-content: space-around;
       }
 
-      @media screen and (min-width: 1170px) and (max-width: 1600px) {
+      @media screen and (min-width: 1170px) {
         flex-wrap: wrap;
         justify-content: flex-end;
       }
@@ -79,6 +67,7 @@
       height: 185px;
       position: relative;
       cursor: pointer;
+      color: rgba(255, 255, 255, 0.6);
 
       margin: 5px;
       display: flex;
@@ -99,7 +88,7 @@
         font-size: 18px;
         margin: 0;
 
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.6);
 
         @media screen and (min-width: 320px) and (max-width: 767px) {
           color: rgba(255, 255, 255, 1);
@@ -115,12 +104,17 @@
 
       & .big-text {
         font-size: 50px;
+        color: inherit;
         margin: 20px 0 0 0;
         @media screen and (min-width: 320px) and (max-width: 767px) {
           margin: 0;
           font-size: 30px;
         }
       }
+    }
+
+    .item:hover {
+      color: rgba(255, 255, 255, 1);
     }
 
     .bg-color1 {
@@ -145,6 +139,7 @@
     }
 
     .bg-color2 {
+      transition: 1s;
       background-image: -webkit-gradient(
         linear,
         left bottom,
@@ -165,6 +160,7 @@
     }
 
     .bg-color3 {
+      transition: 1s;
       background-image: -webkit-gradient(
         linear,
         right top,
@@ -184,6 +180,7 @@
     }
 
     .bg-color4 {
+      transition: 1s;
       background-image: -webkit-gradient(
         linear,
         left bottom,

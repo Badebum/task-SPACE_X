@@ -1,28 +1,30 @@
 .button {
-  background: none;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   font-family: inherit;
   font-size: 14px;
   font-weight: 100;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
 
+  align-items: center;
+  text-align: center;
+
   width: 185px;
   height: 37px;
-  padding: 12px 20px;
 
+  margin-top: 80px;
+
+  background: none;
   border-image-slice: 1;
   border-width: 1px;
-
   border-image-source: linear-gradient(12deg, #2d60a1, #101f2d, #2d60a1);
   position: relative;
-  transition: 1s;
-  margin-top: 80px;
+  transition: 0.3s;
+
   &:hover,
   &:focus {
-    transform: scale(1.1);
+    color: rgba(255, 255, 255, 1);
+    transform: scale(1.02);
   }
 
   @media screen and (min-width: 768px) and (max-width: 1169px) {
@@ -46,12 +48,12 @@
 .button::after {
   top: -1px;
   right: -1px;
-  border-top: 1px solid white;
-  border-right: 1px solid white;
+  border-top: $border-color;
+  border-right: $border-color;
 }
 .button::before {
   bottom: -1px;
   left: -1px;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: $border-color;
+  border-left: $border-color;
 }

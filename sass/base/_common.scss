@@ -1,43 +1,36 @@
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 0.03em;
-
   color: #fff;
   text-align: center;
+
   background: #19232e;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 450px;
 
   @media screen and (max-width: 767px) {
     background-image: url(../../img/hero/bgHeroMobile.jpg);
-
-    height: 450px;
   }
 
   @media not all,
     screen and (min-resolution: 192dpi) and (max-width: 767px),
     screen and (min-resolution: 2dppx) and (max-width: 767px) {
     background-image: url(../../img/hero/bgHeroMobile@2x.jpg);
-    height: 450px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1169px) {
     background-image: url(../../img/hero/bgtab.jpg);
-    background-repeat: no-repeat;
-    height: 450px;
   }
 
   @media not all,
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    background-repeat: no-repeat;
     background-image: url(../../img/hero/bgtab@2x.jpg);
-    height: 450px;
   }
 
   @media screen and (min-width: 1170px) {
-    background-repeat: no-repeat;
     background-image: url(../img/hero/bgHero.jpg);
     height: 100vh;
   }
@@ -45,7 +38,6 @@ body {
   @media not all,
     screen and (min-resolution: 192dpi) and (min-width: 1170px),
     screen and (min-resolution: 2dppx) and (min-width: 1170px) {
-    background-repeat: no-repeat;
     background-image: url(../img/hero/bgHero@2x.jpg);
     height: 100vh;
   }
@@ -66,8 +58,4 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-left: none;
   border-right: none;
-
-  // @media screen and (min-width: 1170px) {
-  //   justify-content: start;
-  // }
 }
