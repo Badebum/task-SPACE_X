@@ -8,7 +8,8 @@
     text-align: left;
     & .titel {
       font-family: 'Rubik One', sans-serif;
-      font-size: 50px;
+      font-weight: 700;
+      font-size: 46px;
       text-transform: uppercase;
       background: linear-gradient(90deg, #fff, rgb(255, 64, 5));
       -webkit-background-clip: text;
@@ -21,6 +22,7 @@
       margin: 0;
       margin-bottom: 87px;
       font-size: 20px;
+      font-weight: 300;
       background: linear-gradient(90deg, #fff, rgb(247, 117, 77));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -52,7 +54,7 @@
 
       & .text-item {
         color: rgba(255, 255, 255, 0.5);
-        font-size: 15px;
+        font-size: 18px;
         margin: 0;
       }
       & .big-text {

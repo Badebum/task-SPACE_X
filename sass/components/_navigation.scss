@@ -36,12 +36,9 @@
       padding-bottom: 43px;
     }
 
-    // padding-top: 8px;
-    // padding-bottom: 8px;
-
     color: inherit;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 16px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -55,13 +52,13 @@
     &::after {
       content: '';
       position: absolute;
-      bottom: 25px;
+      bottom: 32px;
       left: 0;
 
       width: 100%;
-      height: 1px;
+      height: 2px;
 
-      background-color: rgba(255, 255, 255, 0.21);
+      background-color: #3d3d3d;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }

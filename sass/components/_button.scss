@@ -2,16 +2,16 @@
   background: none;
   color: #fff;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  width: 180px;
-  height: 35px;
-  padding: 10px 23px;
+  width: 185px;
+  height: 37px;
+  padding: 12px 20px;
 
   border-image-slice: 1;
   border-width: 1px;
@@ -27,7 +27,7 @@
 }
 
 .button::after,
-span::before {
+.button::before {
   display: block;
   content: '';
   width: 7px;
@@ -41,7 +41,7 @@ span::before {
   border-top: 1px solid white;
   border-right: 1px solid white;
 }
-span::before {
+.button::before {
   bottom: -1px;
   left: -1px;
   border-bottom: 1px solid white;
