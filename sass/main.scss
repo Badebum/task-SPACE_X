@@ -1,5 +1,7 @@
 @import './utils/variables';
 
+@import './layout/hero';
+
 @import './base/common';
 @import './base/container';
 
@@ -7,5 +9,3 @@
 
 @import './components/button';
 @import './components/navigation';
-
-@import './layout/hero';

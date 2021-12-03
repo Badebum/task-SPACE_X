@@ -2,58 +2,52 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 0.03em;
 
-  height: 100vh;
-
   color: #fff;
   text-align: center;
-
+  background: #19232e;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  // @media screen and (max-width: 576px) {
-  //   background-image: linear-gradient(
-  //       rgba(47, 48, 58, 0.8),
-  //       rgba(47, 48, 58, 0.8)
-  //     ),
-  //     url(../img/hero/mobileBGhero.jpg);
-  // }
+  @media screen and (max-width: 767px) {
+    background-image: url(../../img/hero/bgHeroMobile.jpg);
 
-  // @media not all,
-  //   screen and (min-resolution: 192dpi) and (max-width: 577px),
-  //   screen and (min-resolution: 2dppx) and (max-width: 577px) {
-  //   background-image: linear-gradient(
-  //       rgba(47, 48, 58, 0.8),
-  //       rgba(47, 48, 58, 0.8)
-  //     ),
-  //     url(../img/hero/hero-bg-mobile@2x.jpg);
-  // }
+    height: 450px;
+  }
 
-  // @media screen and (min-width: 578px) and (max-width: 1169px) {
-  //   background-image: linear-gradient(
-  //       rgba(47, 48, 58, 0.8),
-  //       rgba(47, 48, 58, 0.8)
-  //     ),
-  //     url(/img/hero/tablBGhero.jpg);
-  // }
+  @media not all,
+    screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    background-image: url(../../img/hero/bgHeroMobile@2x.jpg);
+    height: 450px;
+  }
 
-  // @media not all,
-  //   screen and (min-resolution: 192dpi) and (min-width: 578px),
-  //   screen and (min-resolution: 2dppx) and (min-width: 578px) {
-  //   background-image: linear-gradient(
-  //       rgba(47, 48, 58, 0.8),
-  //       rgba(47, 48, 58, 0.8)
-  //     ),
-  //     url(../img/hero/hero-bg-tablet@2x.jpg);
-  // }
+  @media screen and (min-width: 768px) and (max-width: 1169px) {
+    background-image: url(../../img/hero/bgtab.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+  }
+
+  @media not all,
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    background-repeat: no-repeat;
+    background-image: url(../../img/hero/bgtab@2x.jpg);
+    height: 450px;
+  }
 
   @media screen and (min-width: 1170px) {
+    background-repeat: no-repeat;
     background-image: url(../img/hero/bgHero.jpg);
+    height: 100vh;
   }
 
   @media not all,
     screen and (min-resolution: 192dpi) and (min-width: 1170px),
     screen and (min-resolution: 2dppx) and (min-width: 1170px) {
-    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(../img/hero/bgHero@2x.jpg);
+    height: 100vh;
   }
 }
 
@@ -73,7 +67,7 @@ body {
   border-left: none;
   border-right: none;
 
-  @media screen and (min-width: 1170px) {
-    justify-content: start;
-  }
+  // @media screen and (min-width: 1170px) {
+  //   justify-content: start;
+  // }
 }

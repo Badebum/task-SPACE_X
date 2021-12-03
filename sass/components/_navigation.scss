@@ -1,11 +1,23 @@
 .nav {
+  height: 50px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+  // align-items: center;
+  @media screen and (min-width: 768px) and (max-width: 1169) {
+  }
+
+  @media screen and (min-width: 1170px) and (max-width: 1600px) {
+    // display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
 }
 
 .main-nav {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: none;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -13,24 +25,28 @@
 }
 
 .site-nav {
-  @media screen and (min-width: 768px) {
-    display: flex;
+  display: flex;
+  @media screen and (min-width: 768px) and (max-width: 1169px) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10px;
+    & .item:not(:last-child) {
+      margin-right: 90px;
+    }
+  }
 
+  @media screen and (min-width: 1170px) {
     & .item:not(:last-child) {
       margin-right: 42px;
     }
   }
-
-  // @media screen and (min-width: 1170px) {
-  //
-  // }
 
   @media screen and (min-width: 320px) and (max-width: 767px) {
     margin-bottom: 60px;
   }
 
   & .link {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       display: block;
       padding-top: 43px;
       padding-bottom: 43px;
@@ -101,8 +117,8 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .navigation-button {
-    display: none;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   .navigation-button {
+//     display: none;
+//   }
+// }

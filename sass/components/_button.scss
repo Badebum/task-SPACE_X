@@ -19,10 +19,18 @@
   border-image-source: linear-gradient(12deg, #2d60a1, #101f2d, #2d60a1);
   position: relative;
   transition: 1s;
-
+  margin-top: 80px;
   &:hover,
   &:focus {
     transform: scale(1.1);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1169px) {
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1169px) {
+    margin-top: 90px;
   }
 }
 
