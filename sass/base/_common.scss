@@ -10,34 +10,34 @@ body {
   height: 450px;
 
   @media screen and (max-width: 767px) {
-    background-image: url(../../img/hero/bgHeroMobile.jpg);
+    background-image: url(../../images/hero/bgHeroMobile.jpg);
   }
 
   @media not all,
     screen and (min-resolution: 192dpi) and (max-width: 767px),
     screen and (min-resolution: 2dppx) and (max-width: 767px) {
-    background-image: url(../../img/hero/bgHeroMobile@2x.jpg);
+    background-image: url(../../images/hero/bgHeroMobile@2x.jpg);
   }
 
   @media screen and (min-width: 768px) and (max-width: 1169px) {
-    background-image: url(../../img/hero/bgtab.jpg);
+    background-image: url(../../images/hero/bgtab.jpg);
   }
 
   @media not all,
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    background-image: url(../../img/hero/bgtab@2x.jpg);
+    background-image: url(../../images/hero/bgtab@2x.jpg);
   }
 
   @media screen and (min-width: 1170px) {
-    background-image: url(../img/hero/bgHero.jpg);
+    background-image: url(../images/hero/bgHero.jpg);
     height: 100vh;
   }
 
   @media not all,
     screen and (min-resolution: 192dpi) and (min-width: 1170px),
     screen and (min-resolution: 2dppx) and (min-width: 1170px) {
-    background-image: url(../img/hero/bgHero@2x.jpg);
+    background-image: url(../images/hero/bgHero@2x.jpg);
     height: 100vh;
   }
 }
