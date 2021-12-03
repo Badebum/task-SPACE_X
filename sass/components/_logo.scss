@@ -1,5 +1,5 @@
 .logo {
-  width: 250px;
+  width: 300px;
   border: 2px solid rgba(152, 147, 147, 0.21);
   border-bottom: none;
   border-top: none;
@@ -15,6 +15,10 @@
     margin-right: auto;
   }
 
+  @media screen and (min-width: 768px) and (max-width: 1169px) {
+    justify-content: center;
+  }
+
   @media screen and (min-width: 1170px) and (max-width: 1600px) {
     width: 317px;
     border-bottom: none;
@@ -27,7 +31,8 @@
 
     @media screen and (min-width: 768px) and (max-width: 1169px) {
       width: 150px;
-      padding: 0 5px;
+      padding: 0 0 0 10px;
+      justify-content: center;
     }
 
     @media screen and (min-width: 1170px) and (max-width: 1600px) {

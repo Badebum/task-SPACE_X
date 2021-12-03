@@ -22,18 +22,19 @@
         </a>
        
 
-<!-- 
-        <button type="button" class="navigation-button " 
-            aria-expanded="false" >
-                <svg width="40px" height="40px" 
+
+        <button type="button" class="navigation-button" 
+            aria-expanded="false"
+            data-menu-button >
+                <svg width="30px" height="30px" 
                 aria-label="Переключатель мобильного меню">
                     <use class="icon-cross" href="./img/icon/symbol-defs.svg#close"></use>
                     <use class="icon-menu" href="./img/icon/symbol-defs.svg#menu"></use>
                 </svg>
-        </button> -->
+        </button>
 
 
-    <div class="main-nav">
+    <div class="navigation-menu main-nav" data-menu>
       
      <ul class="site-nav list">
             <li class="item">
@@ -55,7 +56,7 @@
                 <a href="" class="link">Контакты</a>
             </li>
         </ul>
-     
+     </div>
 
     </header>
     <main>
@@ -103,6 +104,7 @@
 
     </main>
 
+     <script src="js/menu.js"></script>
 </body>
 
 </html>
