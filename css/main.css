@@ -22,8 +22,8 @@
   .divImg .line {
     position: fixed;
     z-index: 2;
-    width: 105%;
-    left: -50%;
+    width: 107%;
+    left: -51%;
     bottom: 18%;
   }
 }
@@ -437,7 +437,7 @@ body {
 
 @media screen and (min-width: 1169px) {
   .button {
-    margin-top: 90px;
+    margin-top: 95px;
   }
 }
 
