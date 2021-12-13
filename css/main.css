@@ -17,11 +17,18 @@
 .section-hero .left-div .titel {
   font-family: 'MuseoSansCyrl', 'AdobeInvisFont', 'MyriadPro-Regular', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 54px;
   text-transform: uppercase;
   background: linear-gradient(90deg, #fff, #ff4005);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
   display: table;
   margin: 0;
 }
@@ -32,8 +39,15 @@
   margin: 0;
   font-size: 20px;
   background: linear-gradient(90deg, #fff, #f7754d);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
   display: table;
 }
 
@@ -394,7 +408,7 @@ body {
 
 @media screen and (min-width: 1169px) {
   .button {
-    margin-top: 90px;
+    margin-top: 80px;
   }
 }
 

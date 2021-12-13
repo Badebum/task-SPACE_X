@@ -15,11 +15,18 @@
       font-family: 'MuseoSansCyrl', 'AdobeInvisFont', 'MyriadPro-Regular',
         'Arial Narrow', Arial, sans-serif;
       font-weight: 700;
-      font-size: 55px;
+      font-size: 54px;
       text-transform: uppercase;
       background: linear-gradient(90deg, #fff, rgb(255, 64, 5));
+     background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      -o-background-clip: text;
+      -o-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -ms-background-clip: text;
+      -ms-text-fill-color: transparent;
       display: table;
       margin: 0;
     }
@@ -32,8 +39,15 @@
       margin: 0;
       font-size: 20px;
       background: linear-gradient(90deg, #fff, rgb(247, 117, 77));
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      -o-background-clip: text;
+      -o-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -ms-background-clip: text;
+      -ms-text-fill-color: transparent;
       display: table;
     }
   }
