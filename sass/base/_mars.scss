@@ -1,0 +1,33 @@
+.divImg {
+  background-image: url(../../images/mars.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto auto;
+
+  position: fixed;
+  z-index: 1;
+  width: 455px;
+  opacity: 1;
+  height: 385px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// .mars {
+//   position: fixed;
+//   z-index: 1;
+//   //   opacity: 0.5;
+//   max-width: 450px;
+//   left: 50%;
+//   top: 52%;
+//   transform: translate(-50%, -50%);
+// }
+
+.line {
+  position: fixed;
+  z-index: 2;
+  width: 84.5%;
+  left: -30%;
+  bottom: 18%;
+}
