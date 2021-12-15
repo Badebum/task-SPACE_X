@@ -9,19 +9,18 @@
 
     position: fixed;
     z-index: 1;
-    width: 382px;
+    min-width: 382px;
     opacity: 1;
-    height: 382px;
+    min-height: 382px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
-    .line {
-      position: fixed;
-      z-index: 2;
-      width: 107%;
-      left: -51%;
-      bottom: 18%;
-    }
   }
+}
+.line {
+  position: fixed;
+  z-index: 2;
+  width: 107%;
+  left: -51%;
+  bottom: 18%;
 }
